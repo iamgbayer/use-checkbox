@@ -5,17 +5,11 @@ export default function useCheckbox(options = []) {
 
   const setChecked = key => {
     const eqKey = i => i.key === key
-
     const index = value.findIndex(eqKey)
-    const option = value[index]
 
-    setValue([
-      ...value,
-      {
-        ...option,
-        checked: !option.checked
-      }
-    ])
+    value[index].checked = !value[index].checked
+
+    setValue([...value])
   }
 
   return {
