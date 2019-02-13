@@ -4,11 +4,20 @@ const PATH = require('./path')
 
 module.exports = {
   output: {
-    path: PATH.build
+    path: PATH.dist,
+    filename: 'index.js'
   },
 
   resolve: {
     extensions: ['.js']
+  },
+
+  optimization: {
+    minimize: true
+  },
+
+  watchOptions: {
+    ignored: /node_modules/
   },
 
   module: {
