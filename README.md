@@ -18,7 +18,7 @@ const options = [
   }
 ]
 
-const [checkboxes, setChecked] = useCheckbox(options)
+const {checkboxes, setChecked} = useCheckbox(options)
 ```
 
 # License
