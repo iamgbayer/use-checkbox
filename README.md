@@ -23,6 +23,9 @@ const options = [
 const {checkboxes, setChecked} = useCheckbox(options)
 ```
 
+# Demo
+[![Edit Checkbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/74x4r9l6o0)
+
 # License
 
 [MIT © Guilherme Bayer](https://github.com/guuibayer/use-checkbox/blob/master/LICENSE.md)
