@@ -17,6 +17,8 @@ const options = [
     label: 'Apple'
   }
 ]
+
+const [checkboxes, setChecked] = useCheckbox(options)
 ```
 
 # License
