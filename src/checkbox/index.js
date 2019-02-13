@@ -13,7 +13,7 @@ export default function useCheckbox(options = []) {
   }
 
   return {
-    options: value,
+    checkboxes: value,
     setChecked
   }
 }
