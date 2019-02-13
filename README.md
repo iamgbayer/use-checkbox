@@ -2,7 +2,7 @@
 
 # How use?
 
-The checkboxes options is based in an array of objects, and at each object the key propriety is required.
+The checkboxes options is based in an array of objects, and at each object the **key** and **checked** propriety is required.
 
 See the example.
 
@@ -10,11 +10,13 @@ See the example.
 const options = [
   {
     key: 'bacon',
-    label: 'Bacon'
+    label: 'Bacon',
+    checked: true
   },
   {
     key: 'apple',
-    label: 'Apple'
+    label: 'Apple',
+    checked: false
   }
 ]
 
